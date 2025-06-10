@@ -1,4 +1,4 @@
-# cv-depth-analyser – monocular object-distance measurer
+# cv-depth-analyser – monocular object-distance estimation
 
 This tool turns a single webcam into an interactive tool that *finds an object you name and overlays its metric distance in real time*!
 
