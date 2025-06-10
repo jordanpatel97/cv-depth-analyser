@@ -1,0 +1,15 @@
+camera:
+  id: 0                # default MacBook cam
+  fov_deg: 69          # horizontal FOV; used if you skip calibration
+  resolution_w: 720
+  resolution_h: 1280
+vlm:
+  model: google/owlvit-base-patch32
+depth:
+  model_type: DPT_Hybrid
+  optimize: true       # half-precision & 16-bit OpenCV for speed
+ui:
+  click_threshold: 15  # px radius to match bbox centre
+  click_radius_px: 50
+logging:
+  level: INFO
